@@ -1,12 +1,18 @@
 # study_project
 # MAP (My Asset Plan)
 
+2024/08/07
+프론트앤드
+ㄴ 차트 그리기 연습 (양쪽인덱스 그래프) Web_FrontEnd/BiaxialLineChart.js
+ㄴ 차트 그리기 연습 (이모티콘 포인트 그래프) Web_FrontEnd/CustomizedDotLineChart.js
+
+
 2024/08/06
 데이터 전처리
 ㄴ 쳇봇 질문 데이터 = 토큰화(komoran)+불용어처리+단어임베딩(word2vector)
 
 프론트앤드
-ㄴ 차트 그리기 연습 Web_FrontEnd/
+ㄴ 차트 그리기 연습 Web_FrontEnd/ChartjsExample.js
 
 2024/08/05
 ! 프로젝트 사용 깃 브런치 생성
