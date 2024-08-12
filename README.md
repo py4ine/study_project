@@ -1,6 +1,13 @@
 # study_project
 # MAP (My Asset Plan)
 
+2024/08/12
+아나콘다 환경 재설치 = KoBERT환경구축 실패로 재설치 mxnet numpy버전문제
+
+데이터 전처리
+ㄴ 쳇봇 질문 데이터 = 토큰화(komoran)+불용어처리+단어임베딩(KoBERT) Data\Data_Preprocessing\study_komoran_KoBERT.ipynb
+ㄴ 쳇봇 질문 데이터 = 토큰화(komoran)+불용어처리+단어임베딩(KoElectra) Data\Data_Preprocessing\study_komoran_KoELECTRA.ipynb.ipynb
+
 2024/08/07
 프론트앤드
 ㄴ 차트 그리기 연습 (양쪽인덱스 그래프) Web_FrontEnd/BiaxialLineChart.js
