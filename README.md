@@ -1,6 +1,19 @@
 # study_project
 # MAP (My Asset Plan)
 
+2024/08/20
+AI 뉴스에 따른 호재/악재 예측
+ㄴ KF-DeBERTa 모델: 최적의 파라미터 도출과 평가지표 산출 코드 하루종일..
+
+
+2024/08/19
+AI 뉴스에 따른 호재/악재 예측
+ㄴ KF-DeBERTa 모델: Huggingface의 transformers라이브러리와 Trainer클래스를 사용하여 파인튜닝하는 방식으로 진행. 최적의 파라미터 도출과 평가지표 산출 작업 필요
+
+AI 과거지표에 따른 회귀분석을 통한 주가 예측
+ㄴ Exponential Smoothing을 활용한 시계열 분석 사용법을 공부하고, 애플 주가 데이터를 적용하여 코드 작성 진행
+
+
 2024/08/16
 AI 뉴스에 따른 호재/악재 예측
 ㄴ prophet 모델: 시계열 예측 모델에 적합하여 KF-DeBERTa모델로 변경
