@@ -1,6 +1,11 @@
 # study_project
 # MAP (My Asset Plan)
 
+9/2
+백앤드
+ㄴ 마이페이지 회원정보 수정 DB적용 완료
+ㄴ 회원탈퇴 관련 REST API Delete는 CORS 정규정책사 body내용을 보낼 수 없어서 DB 삭제에 어려움 봉착. 로그인시 세션에 userID를 저장하여 REST API 통신으로 같이 보내려고 하였으나, undifined 상태로 해결방안 모색 중
+
 2024/08/28
 2024/08/27
 하드포멧 및 프로그램 재설치
