@@ -1,6 +1,10 @@
 # study_project
 # MAP (My Asset Plan)
 
+9/5
+Dev/Ops
+ㄴ Linux 환경에서 FE, BE, DB Docker 이미지화 시도
+
 9/4
 백앤드
 ㄴ 회원가입 페이지 수정 완료. user_ID가 이미 FK로 지정되어 있었고, 테이블에 생성된 것이 안보일 뿐이었고, user_ID로 매칭하여 정보를 넣을 수 있었음
