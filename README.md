@@ -1,6 +1,13 @@
 # study_project
 # MAP (My Asset Plan)
 
+9/6
+Dev/Ops
+ㄴ ubuntu문제로 nginx 도커 실행시 localhost접속이 안되는 현상으로 환경 재설치
+ㄴ Linux 환경에서 FE, BE, DB Docker 이미지화 시도. FE 이미지화까지 성공
+ㄴ AWS EC2 인스턴스 설정 및 보안키 putty 연결
+
+
 9/5
 Dev/Ops
 ㄴ Linux 환경에서 FE, BE, DB Docker 이미지화 시도
