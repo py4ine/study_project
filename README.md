@@ -1,6 +1,12 @@
 # study_project
 # MAP (My Asset Plan)
 
+9/9
+AI
+ㄴ 의도인식을 Finance로 분류한 질문에 대한 앤티티 값을 찾는 코드 작성중
+ㄴ 사용자가 질문할 수 있는 경우의 수가 무수히 많아 예상질문을 뽑고 거기에 대한 엔티티를 추출하는데 어려움이 많았음 
+
+
 9/6
 Dev/Ops
 ㄴ ubuntu문제로 nginx 도커 실행시 localhost접속이 안되는 현상으로 환경 재설치
