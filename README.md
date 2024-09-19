@@ -1,6 +1,11 @@
 # study_project
 # MAP (My Asset Plan)
 
+9/19
+AI 챗봇
+ㄴ 주식 엔티티 쿼리문 업데이트
+
+
 9/17
 AI 챗봇
 ㄴ 날짜 형식에 따른 앤티티 쿼리 추출문 업데이트
