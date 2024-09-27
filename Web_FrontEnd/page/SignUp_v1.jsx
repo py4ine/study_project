@@ -31,7 +31,6 @@ const SignUp = () => {
         const checkRes = await fetch('http://localhost:5000/api/register/useremail', {
           method: 'POST',
           headers: {'content-type': 'application/json; charset=UTF-8'},
-          credentials: 'include',
           body: JSON.stringify( {email: checkEmail} )
         });
 
@@ -65,7 +64,6 @@ const SignUp = () => {
       const request = await fetch('http://localhost:5000/api/register/usercheckcode', {
         method: 'POST',
         headers: {'content-type': 'application/json; charset=UTF-8'},
-        credentials: 'include',
         body: JSON.stringify( {email: checkEmail} )
       });
       if (!request.ok) {
@@ -93,7 +91,6 @@ const SignUp = () => {
       const request = await fetch('http://localhost:5000/api/register/userconfirmcode', {
         method: 'POST',
         headers: {'content-type': 'application/json; charset=UTF-8'},
-        credentials: 'include', // 세션 쿠키 전송 설정 추가 
         body: JSON.stringify( {userconfirm: confirmCode} )
       });
 
@@ -133,7 +130,6 @@ const SignUp = () => {
       const response = await fetch('http://localhost:5000/api/register/userdata', {
         method: 'POST',
         headers: {'content-type': 'application/json; charset=UTF-8'},
-        credentials: 'include', 
         body: JSON.stringify(data)
       });
 
@@ -212,7 +208,7 @@ const SignUp = () => {
                 </div>
                 <div className="signup-form-group">
                   <label>Mobile No.:</label>
-                  <input type="text" name="user_mobile" placeholder="000 000 000" maxlength='9' />
+                  <input type="text" name="user_mobile" placeholder="000 0000 0000" />
                 </div>
                 <div className="signup-form-group">
                   <label><span>*</span>Password:</label>
