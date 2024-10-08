@@ -39,7 +39,7 @@ const postUserData = async (req, res) => {
 
     const uf_query = "SELECT * FROM tb_user_finance WHERE user_id = ?";
     const [uf_result] = await connection.execute(uf_query, [user_id]);
-
+    uf_result.uf_capital = uf_result.uf_capital.toString();
     console.log("User finance query result:", uf_result);  // 사용자 금융 정보 쿼리 결과 로그 확인
 
     // 사용자 금융 정보가 객체로 반환될 경우 바로 사용
