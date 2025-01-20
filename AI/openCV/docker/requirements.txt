@@ -1,6 +1,7 @@
 # FastAPI 및 서버 실행에 필요한 라이브러리
 fastapi                      # FastAPI 웹 프레임워크
 uvicorn                      # ASGI 서버: FastAPI 애플리케이션 실행
+websocket
 
 # 데이터 처리 및 과학 계산 라이브러리
 numpy                        # 다차원 배열 및 과학 계산 (최신 버전 설치)

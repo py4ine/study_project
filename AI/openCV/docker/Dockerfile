@@ -19,19 +19,16 @@ RUN apt-get update && apt-get install -y \
 RUN pip install --no-cache-dir --upgrade pip
 
 # 1단계: NumPy 최신 버전 설치 및 다른 패키지 설치
-COPY requirements_temp.txt . # 임시 요구 사항 파일 복사
+COPY requirements.txt . # 임시 요구 사항 파일 복사
 RUN pip install --no-cache-dir -r requirements.txt
-
-# 2단계: NumPy를 1.19.5로 다운그레이드 및 관련 패키지 설치
-RUN pip install --no-cache-dir numpy==1.19.5 scipy==1.7.3 matplotlib==3.4.3
 
 # 프로젝트 코드 복사 (로컬 디렉토리 내용을 컨테이너 내부 /app에 복사)
 COPY . .
 
 # ByteTrack 설치
-RUN git clone https://github.com/ifzhang/ByteTrack.git \ # ByteTrack 레포지토리 클론
-    && cd ByteTrack \                                    # ByteTrack 디렉토리로 이동
-    && python3 setup.py develop                         # ByteTrack 설치
+RUN git clone https://github.com/ifzhang/ByteTrack.git \  # ByteTrack 레포지토리 클론
+    && sed -i 's/np.float/float/g' ByteTrack/yolox/tracker/*.py \  # 넘파이 관련 수정
+    && cd ByteTrack && python3 setup.py develop  # ByteTrack 폴더 이동 및 설치
 
 # FastAPI 서버가 실행될 포트 (8000번 포트 노출)
 EXPOSE 8000
